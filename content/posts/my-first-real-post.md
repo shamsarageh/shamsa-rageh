@@ -1,6 +1,7 @@
 ---
 title: "My First Real Post"
 date: 2025-09-13T20:06:32+01:00
+categories: ["diary"] 
 draft: false
 ---
 
