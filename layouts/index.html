@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{/*  {{ define "main" }}
 <h1>Latest Posts</h1>
 
 <ul class="post-list">
@@ -25,4 +25,39 @@
     {{ end }}
 </nav>
 {{ end }}
+{{ end }}  */}}
+{{ define "main" }}
+<div class="homepage">
+    <section class="intro">
+        <p>Thinking about everything all the time.</p>
+    </section>
+
+    <section class="category-previews">
+        {{ $categories := slice "opinion" "art-culture" "reviews" "diary" }}
+        {{ range $categories }}
+            {{ $categoryPages := where $.Site.Pages "Section" "posts" }}
+            {{ $categoryPages = where $categoryPages ".Params.categories" "intersect" (slice .) }}
+            {{ $latestPost := first 1 $categoryPages }}
+            
+            {{ if $latestPost }}
+            <div class="category-section">
+                <h2><a href="/categories/{{ . | urlize }}/">{{ . | title }}</a></h2>
+                {{ range $latestPost }}
+                <div class="post-preview">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
+                    {{ if .Summary }}
+                    <p class="post-excerpt">{{ .Summary | truncate 150 }}</p>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        {{ end }}
+    </section>
+
+    <section class="all-posts-link">
+        <p><a href="/posts/">View all posts →</a></p>
+    </section>
+</div>
 {{ end }}
