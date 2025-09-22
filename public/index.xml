@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on girl in thought, shamsa rageh</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Archives on girl in thought, shamsa rageh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Sep 2025 20:06:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Real Post</title>
+      <link>http://localhost:1313/posts/my-first-real-post/</link>
+      <pubDate>Sat, 13 Sep 2025 20:06:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-real-post/</guid>
+      <description>&lt;h1 id=&#34;what-im-doing-here&#34;&gt;what I&amp;rsquo;m doing here.&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m writing this post on the steps of a fire escape in a not-seedy part of town. Making my own website from scratch has been easier than I&amp;rsquo;d like to admit - it&amp;rsquo;s a task I&amp;rsquo;ve been devotedly been putting off for several months. But I&amp;rsquo;m here now. Not wanting to place my thoughts, these most precious of things, on a platform like Substack or Medium has me writing this all down in a markdown file. White knuckles, my hands cold as they&amp;rsquo;ve ever been, with a few hours of daylight left before the day becomes a thing to contemplate, and not live inside. I want my words to live on in this little patch of internet. Static and uncrackling. I&amp;rsquo;ll be back to center a heading tomorrow, or later this evening, probably. See ya later.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;Thinking about everything all the time.&lt;/p&gt;&#xA;&lt;p&gt;You can contact me at &lt;a href=&#34;mailto:shamsa.rageh@gmail.com&#34;&gt;shamsa.rageh@gmail.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;This is your first blog post. Write in Markdown for easy formatting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;subheading&#34;&gt;Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Links to &lt;a href=&#34;https://example.com&#34;&gt;other sites&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Code: &lt;code&gt;console.log(&#39;hello&#39;)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Keep it simple and focused on your ideas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

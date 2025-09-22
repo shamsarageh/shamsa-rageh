@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.md": "markdown"
+    },
+    "emmet.includeLanguages": {
+        "hugo": "html"
+    },
+    "markdown.preview.breaks": true,
+    "files.autoSave": "onFocusChange"
+}
