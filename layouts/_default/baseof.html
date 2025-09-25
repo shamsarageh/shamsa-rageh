@@ -16,10 +16,8 @@
     <div class="container">
         <header>
             <h1>
-                <a href="{{ "/" | relURL }}">
-                    girl in thought,<br>
-                    <span class="byline">by shamsa rageh</span>
-                </a>
+                <a href="{{ "/" | relURL }}">girl in thought,</a><br>
+                <a href="/about/" class="byline-small">by shamsa rageh</a>
             </h1>
             <nav>
                 {{ range .Site.Menus.main }}
@@ -36,5 +34,7 @@
             <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
         </footer>
     </div>
+    <script data-goatcounter="https://girlinthought.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

@@ -13,13 +13,18 @@
             
             {{ if $latestPost }}
             <div class="category-section">
-                <h2><a href="/categories/{{ . | urlize }}/">{{ . | title }}</a></h2>
                 {{ range $latestPost }}
                 <div class="post-preview">
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <h3>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <span class="category-tag">{{ index .Params.categories 0 }}</span>
+                    </h3>
+                    {{ if and .Params.series .Params.series_number }}
+                    <p class="series-info">This post is part {{ .Params.series_number }} of the series {{ .Params.series }}.</p>
+                    {{ end }}
                     <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
                     {{ if .Summary }}
-                    <p class="post-excerpt">{{ .Summary | truncate 150 }}</p>
+                    <p class="post-excerpt">{{ .Summary | plainify | truncate 400 }}</p>
                     {{ end }}
                 </div>
                 {{ end }}
@@ -27,6 +32,7 @@
             {{ end }}
         {{ end }}
     </section>
-    
+
+
 </div>
 {{ end }}

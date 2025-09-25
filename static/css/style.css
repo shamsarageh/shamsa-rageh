@@ -19,6 +19,33 @@ body {
     font-weight: normal;
 }
 
+.category-tag {
+    font-size: 0.8em;
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+    color: #666;
+}
+
+.series-info {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    margin: 4px 0;
+}
+
+.byline-small {
+    font-size: 0.7em;
+    font-weight: normal;
+    text-decoration: none;
+    color: #666;
+}
+
+.byline-small:hover {
+    color: #000;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
