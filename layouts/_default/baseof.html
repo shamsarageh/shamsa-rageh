@@ -13,19 +13,29 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>
-                <a href="{{ "/" | relURL }}">girl in thought,</a><br>
-                <a href="/about/" class="byline-small">by shamsa rageh</a>
-            </h1>
+    <!-- Header outside container for full width -->
+    <header>
+        <div class="header-content">
+            <div class="author-photo">
+                <img src="{{ "images/portrait.jpg" | relURL }}" alt="Shamsa Rageh">
+            </div>
+            <div class="title-section">
+                <h1 class="site-title">girl in thought,</h1>
+                <h2 class="author-name">
+                    <a href="/about/">by shamsa rageh</a>
+                </h2>
+            </div>
+        </div>
+        <div class="container">
             <nav>
                 {{ range .Site.Menus.main }}
                     <a href="{{ .URL | relURL }}">{{ .Name }}</a>
                 {{ end }}
             </nav>
-        </header>
+        </div>
+    </header>
 
+    <div class="container">
         <main>
             {{ block "main" . }}{{ end }}
         </main>
@@ -34,7 +44,12 @@
             <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
         </footer>
     </div>
+    
+    <script>
+    window.goatcounter = {allow_local: true}
+    </script>
     <script data-goatcounter="https://girlinthought.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="//gc.zgo.at/count.js">
+    </script>
 </body>
 </html>

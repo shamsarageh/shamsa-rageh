@@ -1,48 +1,28 @@
 baseURL: 'http://localhost:1313'
 languageCode: 'en-us'
 title: "girl in thought, shamsa rageh"
-description: 'A minimal blog focused on ideas'
 
-# Menu configuration
+# Theme-compatible menu structure
 menu:
   main:
-    # - name: 'archives'
-    #   url: '/'
-    #   weight: 1
-    - name: 'opinion'
-      url: '/categories/opinion/'
+    - identifier: "opinion"
+      name: "opinion"
+      url: "/categories/opinion/"
       weight: 1
-    - name: 'art & culture'
-      url: '/categories/art-culture/'
+    - identifier: "art-culture"
+      name: "art & culture"
+      url: "/categories/art-culture/"
       weight: 2
-    - name: 'reviews'
-      url: '/categories/reviews/'
+    - identifier: "diary"
+      name: "diary"
+      url: "/categories/diary/"
       weight: 3
-    - name: 'diary'
-      url: '/categories/diary/'
+    - identifier: "about"
+      name: "about"
+      url: "/about/"
       weight: 4
-    - name: 'about'
-      url: '/about/'
-      weight: 5
-    - name: 'archives'
-      url: '/'
-      weight: 6  
 
-
-# Pagination
-pagination: 
-  pagerSize: 10
-
-# Markup settings
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    style: github
-    lineNos: false
-
-# Params for customisation
 params:
-  author: 'Shamsa Rageh'
-  description: 'A minimal blog focused on ideas'
+  theme: "auto"
+  palette: "eink"
+  showPostsSummary: true
