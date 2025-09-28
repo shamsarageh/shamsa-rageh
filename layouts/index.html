@@ -20,11 +20,13 @@
                         <span class="category-tag">{{ index .Params.categories 0 }}</span>
                     </h3>
                     {{ if and .Params.series .Params.series_number }}
-                    <p class="series-info">This post is part {{ .Params.series_number }} of the series {{ .Params.series }}.</p>
+                    {{ $numberWords := slice "zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "ten" "eleven" "twelve" "thirteen" "fourteen" "fifteen" "sixteen" "seventeen" "eighteen" "nineteen" "twenty" }}
+                    {{ $wordNumber := index $numberWords .Params.series_number }}
+                    <p class="series-info">This post is part {{ $wordNumber }} of the series {{ .Params.series }}.</p>
                     {{ end }}
                     <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
                     {{ if .Summary }}
-                    <p class="post-excerpt">{{ .Summary | plainify | truncate 400 }}</p>
+                    <p class="post-excerpt">{{ .Summary | plainify | truncate 150 }}</p>
                     {{ end }}
                 </div>
                 {{ end }}
