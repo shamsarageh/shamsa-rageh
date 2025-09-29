@@ -7,11 +7,45 @@
 }
 
 body {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 13px;
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-size: 18px;
     line-height: 1.6;
     color: #000;
     background: black;
+}
+
+/* All headings - Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    margin: 20px 0 10px 0;
+}
+
+h2 { font-size: 15px; }
+h3 { font-size: 17px; }
+
+/* Post content specifically */
+.post-content {
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+/* Post titles */
+.post-title {
+    font-family: 'Playfair Display', serif;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+
+.post-title h3 {
+    font-size: 20px;
+}
+
+.post-title a {
+    text-decoration: none;
+    font-weight: normal;
 }
 
 .top-nav {
@@ -46,7 +80,8 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 40px;  /* Adds left margin instead */
     padding: 20px;
 }
 
@@ -99,8 +134,8 @@ header {
 }
 
 .site-title {
-    font-family: 'Playfair Display';
-    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
     /* letter-spacing: 0.1em; */
     font-weight: normal;
     line-height: 1.3;
@@ -109,8 +144,8 @@ header {
 }
 
 .author-name {
-    font-family: 'Playfair Display';
-    font-size: 1.3em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
     letter-spacing: 0.1em;
     font-weight: normal;
     margin: 5px 0 0 0;
@@ -159,30 +194,21 @@ header nav a:hover {
     color:white;
 }
 
-.category-tag {
+/* .category-tag {
     font-size: 0.9em;
     background: #f0f0f0;
     padding: 2px 6px;
     border-radius: 3px;
     margin-left: 8px;
     color: black;
-}
-
+} */
+/* 
 .series-info {
     font-style: italic;
     font-size: 0.9em;
     color: white;
     margin: 4px 0;
-}
-
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    margin: 20px 0 10px 0;
-}
-
-h2 { font-size: 16px; }
-h3 { font-size: 14px; }
+} */
 
 p {
     margin-bottom: 15px;
@@ -211,22 +237,13 @@ a:hover {
     margin-bottom: 12px;
 }
 
-.post-title {
-    margin: 5px 0;
-}
-
-.post-title a {
-    text-decoration: none;
-    font-weight: normal;
-}
-
 .post-title a:hover {
     text-decoration: underline;
 }
 
 .post-excerpt {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 8px;
 }
 
@@ -244,10 +261,6 @@ a:hover {
 .post-header time {
     color: white;
     font-size: 12px;
-}
-
-.post-content {
-    margin-bottom: 40px;
 }
 
 /* Post navigation */
