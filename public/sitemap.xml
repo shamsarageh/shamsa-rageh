@@ -17,15 +17,26 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-09-13T20:06:32+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/opinion/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/digital-minimalis/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/art-culture/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/looking-at-paintings/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tuesday-morning-rain/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/hello-world/</loc>
     <lastmod>2024-01-01T10:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/art-culture/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/opinion/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

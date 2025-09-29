@@ -1,10 +1,12 @@
 ---
 title: "About"
-date: 2025-09-13
+date: 2025-01-01
 ---
-
-# About
 
 Thinking about everything all the time.
 
-You can contact me at [shamsa.rageh@gmail.com](mailto:shamsa.rageh@gmail.com).
+## Contact
+
+You can find me on [Instagram](https://instagram.com/shamsa.rageh) and [Twitter](https://twitter.com/jupiterean).
+
+Or email me at: shamsa.rageh@gmail.com
