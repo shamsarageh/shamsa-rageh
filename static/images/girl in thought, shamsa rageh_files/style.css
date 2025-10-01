@@ -217,7 +217,6 @@ p {
 
 a {
     color: white;
-    text-decoration: none;
 }
 
 a:hover {
@@ -357,10 +356,6 @@ blockquote {
     .site-title {
         font-size: 1.8em;
     }
-
-    .site-title a:hover {
-    text-decoration: none;
-}
     
     .post-nav {
         flex-direction: column;

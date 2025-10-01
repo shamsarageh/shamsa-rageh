@@ -1,7 +1,7 @@
 ---
-title: "On Looking at Paintings Alone"
-date: 2025-09-20
-categories: ["art-culture"]
+title: "Is This Our Belle Epoque?"
+date: 2025-09-15
+categories: ["opinion"]
 draft: false
 ---
 
